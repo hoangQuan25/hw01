@@ -12,4 +12,4 @@ clean:
 	rm -f $(TARGET) *.o
 
 zip: clean
-	zip -r user_manager.zip $(SRC) account.txt Makefile
+	zip -r user_manager.zip $(SRC) account.txt makefile
